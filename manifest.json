@@ -4,7 +4,7 @@
     "description": "Connect to a wide array of AI language models. LLM Hub is your comprehensive browser extension for exploring Large Language Models.",
     "version": "1.0",
     "chrome_url_overrides": {
-        "newtab": "newtab.html"
+        "newtab": "popup.html"
     },
     "permissions": [
         "activeTab"
