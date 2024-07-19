@@ -1,0 +1,19 @@
+html,
+body {
+    background-color: #012030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#container {
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+a {
+    color: #DAFDBA;
+}

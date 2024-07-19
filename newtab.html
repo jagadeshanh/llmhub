@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Hub</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #0d0c22;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .grid-item {
+            background-color: #7b7bff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .grid-item h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .grid-item a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s ease;
+        }
+
+        .grid-item a:hover {
+            color: #00ff00;
+        }
+
+        .outgoing-icon {
+            width: 16px;
+            height: 16px;
+            margin-left: 5px;
+            fill: currentColor;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="grid-item">
+                <h3>OpenAI</h3>
+                <a href="https://chat.openai.com" target="_blank">
+                    ChatGPT
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Anthropic</h3>
+                <a href="https://claude.ai/new" target="_blank">
+                    Claude
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Cohere</h3>
+                <a href="https://coral.cohere.com" target="_blank">
+                    Cohere
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Google</h3>
+                <a href="https://gemini.google.com/app" target="_blank">
+                    Gemini
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Meta</h3>
+                <a href="https://www.meta.ai" target="_blank">
+                    Meta AI
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Mistral AI</h3>
+                <a href="https://chat.mistral.ai" target="_blank">
+                    Mistral
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Microsoft</h3>
+                <a href="https://copilot.microsoft.com" target="_blank">
+                    Copilot
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Reka</h3>
+                <a href="https://chat.reka.ai/chat" target="_blank">
+                    Reka
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid-item">
+                <h3>Perplexity AI</h3>
+                <a href="https://www.perplexity.ai" target="_blank">
+                    Perplexity
+                    <svg class="outgoing-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
