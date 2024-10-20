@@ -1,3 +1,5 @@
+[LLM Hub - Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/llm-hub/mpljmgofnlalejidafelipngilblkfaf)
+
 LLM Hub is a versatile browser extension that serves as your gateway to the world of Large Language Models (LLMs). This innovative tool transforms your new tab page into a powerful interface for interacting with a diverse array of AI language models. Whether you're a developer, researcher, or AI enthusiast, LLM Hub provides seamless access to multiple LLMs, allowing you to explore, compare, and leverage their capabilities directly from your browser. With its user-friendly interface and comprehensive connectivity, LLM Hub streamlines your AI interactions, making it easier than ever to harness the power of advanced language models for various tasks, from content creation to complex problem-solving. Elevate your browsing experience with LLM Hub – your all-in-one platform for AI language model exploration.
 
 Privacy Policy for LLM Hub
